@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="My Portfolio website" />
+    <meta name="keywords" content="web design, html, css, js" />
+    <title>Portfolio Website</title>
+  </head>
+  <body id="background">
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#Background">Background</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          
+          <li>
+            <a class="header__resume btn" href="public/FINAL PROJECT RACHEL QUEEN TENGBEH.pdf" download >Resume</a>
+          </li>
+        </ul>
+        <button aria-label="mobile nav button" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            
+            <a class="mobile-nav__btn btn" href="public/FINAL PROJECT RACHEL QUEEN TENGBEH.pdf" download >Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="/src/nurse.jpg" alt="Profile picture" />
+        <h1 class="hero__subtitle">Hi, I'm Rachel Queen Tengbeh 👋</h1>
+        <h3 class="hero__title">
+          Health <br />
+          Sciences.
+        </h3>
+        <p class="hero__description">
+          A passionate <strong>Nurse</strong> of Health Sciences and <strong>Dietaries</strong>
+          The well-being of human is my goal as I have all my time observing my surrounding and finding causative and various respective Disease, I realize <stong>Respiratory Dieses</stong> dominate this made me to take a further steps to study the most causes by man and its environment.
+        </p>
+        <a class="hero__btn btn" href="#contact">Reach out</a>
+       </section>     
+       <section>  
+       <h1 id="bkg-text"> Education Background </h1>
+       <section id="Background" class="container">
+           
+   <div class="card">
+       <div class="card-image car-1"></div>
+       <h2>Cuttington University</h2>
+       <p>Bsc. Nurse<br>
+       2013 - 2021<br>
+       Bong County, Liberia</p>
+       <button id="btt2" class="btn">
+       <a href="#"> READ MORE</a></button>
+      
+   </div>
+   <div class="card">
+       <div class="card-image car-2"></div>
+       <h2>CT University</h2>
+       Masters of Public Health<br>
+       2021 - 2023<br>
+       Luhiana, Punjab,India</p>
+       <button id="btt3" class="btn">
+       <a href="#"> READ MORE</a></button>
+   </div>
+</section>   
+<section id="about">  
+  <h1 > Final Research (MPH) </h1>
+  <section class="container">
+      
+<div class="card">
+  <div class="card-image car-3"></div>
+  <h4>Topic:<br>
+    An Analysis of the impact of air polution on the<strong> Respiratory health</strong> in urban area</h4>
+  <button id="bttn" class="btn">
+  <a href="/public/FINAL PROJECT RACHEL QUEEN TENGBEH.pdf"> READ MORE</a>
+</button>
+</div>
+<div class="card">
+    <div class="card-image car-4"></div>
+    <h2>Certicates</h2>
+   <p>
+    To know more,  view other workshops I have participated<br> read more 
+   </p>
+   <button id="btt4" class="btn">
+    <a href="https://drive.google.com/drive/folders/1twZOC-LPGadjkZg8x1YeVa9LicpZxlx_?usp=sharing"> READ MORE</a></button>
+</div>  
+</section>
+
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          I have a strong passion to my job and honestly want the best from my effort.<br> Contact me through the link below.
+        </p>
+        <a
+          class="contact__btn btn"
+          href="mailto: work.nurse.reach12@gmail.com"
+          target="_blank"
+          >React Out</a
+        >
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Eethm ~</h3>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
